@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import MultiTimer from './MultiTimer';
 import Frame from './Frame';
 import DevPage from './DevPage';
 import Home from './Home.jsx';
@@ -18,6 +19,7 @@ function AppRoutes() {
           path="/viktor"
           element={<DevPage name="Страница Виктора" projects={[]} />}
         />
+        <Route path="/timer" element={<MultiTimer />} />
       </Route>
     </Routes>
   );

@@ -18,7 +18,7 @@ function Frame() {
               <Link to="/viktor">Виктор</Link>
             </li>
             <li>
-              <Link to="/projects">Реализованные проекты</Link>
+              <Link to="/timer">Таймер</Link>
             </li>
           </ul>
         </div>
